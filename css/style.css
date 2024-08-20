@@ -1,0 +1,47 @@
+html{
+    scroll-behavior: smooth;
+}
+/* Page style */
+body{
+    background: Linen url(../images/free-palestine.png) no-repeat fixed center;
+    background-blend-mode: overlay;
+}
+/* style button top */
+.top{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    opacity: .8;
+}
+/* Remove the line under the link */
+a{
+    text-decoration: none;
+}
+h1{
+    display: inline;
+    border-bottom: 4px solid red;
+}
+/* view button style */
+.demo{
+    color: #FFFFFF;
+    background-color: #8CBD2E;
+    border-radius: 8px;
+}
+/* download button style */
+.dld{
+    color: #B06A00;
+    background-color: #F5C703;
+    border-radius: 8px;
+}
+.Subtitle{
+    border-left: 5px solid red;
+}
+/* Images display style */
+.imgright, .imgleft{
+    float: right;
+    border: 10px double rgb(169, 13, 13);
+    background-color: rgba(156, 119, 24, 0.536);
+}
+.imgleft{
+    float: left;
+}
